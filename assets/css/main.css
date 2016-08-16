@@ -149,7 +149,7 @@ p{
 }
 
 .col2 a:hover,
-.col2 a:focus
+.col2 a:focus,
 .col2 a:visited{
   color: #FF1493;
 }
@@ -227,7 +227,7 @@ p{
 .listing .description,
 .faceface .description{
   display: inline-block;
-  max-width: 400px;
+  max-width: 450px;
   margin-bottom: 0;
 }
 
