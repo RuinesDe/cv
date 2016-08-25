@@ -118,6 +118,8 @@ p{
 
 #header a{
   background-color: white;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 
@@ -139,10 +141,12 @@ p{
   color: #FF1493;
 }
 
+/*
 .col1 li{
   background-color: white;
   padding: 0 3px;
 }
+*/
 
 .col2{
   display: inline-block;
