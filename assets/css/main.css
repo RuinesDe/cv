@@ -94,6 +94,12 @@ h5{
   font-family: 'Belgika16th';
 }
 
+h6{
+  font-size: 17px;
+  line-height: 1.4em;
+
+}
+
 p{
   line-height: 1.4em;
   margin-top: 10px;
@@ -121,7 +127,6 @@ p{
 }
 
 .col1{
-  display: inline-block;
   width: 60%;
   margin-left: 20px;
   padding-left: 3px;
@@ -134,9 +139,14 @@ p{
   color: #FF1493;
 }
 
+.col1 li{
+  background-color: white;
+  padding: 0 3px;
+}
+
 .col2{
   display: inline-block;
-  width: 30%;
+  width: 35%;
   text-align: right;
   height: 150px;
 }
@@ -195,7 +205,9 @@ p{
   max-width: 650px;
 }
 
-
+.title a{
+  text-decoration: underline dotted #c71585;
+}
 
 .exppro .date {
   display: inline-block;
@@ -279,7 +291,9 @@ p{
   max-width: 400px;
 }
 
-
+.title a{
+  color: #424242;
+}
 
 .title a:hover,
 .title a:focus{
