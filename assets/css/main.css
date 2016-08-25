@@ -86,7 +86,6 @@ h3{
 
 h4{
   font-size: 17px;
-  line-height: 1.4em;
 }
 
 h5{
@@ -209,10 +208,6 @@ p{
   max-width: 650px;
 }
 
-.title a{
-  text-decoration: underline dotted #c71585;
-}
-
 .exppro .date {
   display: inline-block;
   vertical-align: top;
@@ -279,8 +274,12 @@ p{
 
 .exppro .title{
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 9px;
   max-width: 400px;
+}
+
+.title a{
+  border-bottom: 1px dotted #c71585;
 }
 
 .listing .title{
@@ -301,8 +300,8 @@ p{
 
 .title a:hover,
 .title a:focus{
-  color: #c71585;
-  text-decoration: underline;
+  color: #FF1493;
+  border-bottom: 1px solid;
 }
 
 .title a:visited{
