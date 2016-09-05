@@ -405,12 +405,16 @@ p{
     height: auto;
   }
 
+  .col1 {
+    position: static;
+  }
+
   .col2 {
-    display: block;
-    width: 100%;
-    height: auto;
-    text-align: left;
-    padding: 20px;
+    display: none;
+  }
+
+  .wip-illustrations {
+    display: none;
   }
 
   #block1,
