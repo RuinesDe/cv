@@ -226,6 +226,8 @@ p{
   margin-top: 60px;
   width: 100%;
   max-width: 650px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .exppro .date {
@@ -249,7 +251,7 @@ p{
 .listing .description,
 .faceface .description{
   display: inline-block;
-  max-width: 450px;
+  max-width: 412px;
   margin-bottom: 0;
 }
 
@@ -377,7 +379,7 @@ p{
 
 /* Responsive Below 767px */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
 
   body {
     background-image: none;
