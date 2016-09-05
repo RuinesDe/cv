@@ -173,9 +173,9 @@ p{
   border-bottom: 1px solid;
 }
 
+.col2 a:visited,
 .col2 a:hover,
-.col2 a:focus,
-.col2 a:visited{
+.col2 a:focus{
   color: #FF1493;
 }
 
@@ -211,6 +211,15 @@ p{
   vertical-align: top;
 }
 
+#formations,
+#competences,
+#informatique,
+#architecture,
+#gestioncul {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
 #gestioncul, #architecture {
   display: inline-block;
   background: #FAFAFA;
@@ -226,8 +235,6 @@ p{
   margin-top: 60px;
   width: 100%;
   max-width: 650px;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
 }
 
 .exppro .date {
@@ -248,19 +255,20 @@ p{
 }
 
 .exppro .description,
-.listing .description,
 .faceface .description{
   display: inline-block;
-  max-width: 412px;
+  width: 412px;
   margin-bottom: 0;
 }
-
 
 .exppro .description{
   margin-left: 50px;
 }
 
 .listing .description {
+  display: inline-block;;
+  margin-bottom: 0;
+  max-width: 412px;
   margin-left: 166px;
 }
 
@@ -320,15 +328,16 @@ p{
   color: #424242;
 }
 
+.title a:visited{
+  color: #FF1493;
+}
+
 .title a:hover,
 .title a:focus{
   color: #FF1493;
   border-bottom: 1px solid;
 }
 
-.title a:visited{
-  color: #FF1493;
-}
 
 .subtitle{
   margin-top: 2px;
@@ -345,9 +354,9 @@ p{
   padding-left: 3px;
 }
 
+#footer a:visited,
 #footer a:hover,
-#footer a:focus,
-#footer a:visited{
+#footer a:focus{
   color: #FF1493;
 }
 
