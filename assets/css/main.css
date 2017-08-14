@@ -155,7 +155,7 @@ p{
   position: fixed;
   z-index: 50;
   display: inline-block;
-  width: 35%;
+  width: 32%;
   text-align: right;
   height: 150px;
   right: 50px;
@@ -258,19 +258,19 @@ p{
 .exppro .description,
 .faceface .description{
   display: inline-block;
-  width: 412px;
+  width: 460px;
   margin-bottom: 0;
 }
 
 .exppro .description{
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 .listing .description {
   display: inline-block;;
   margin-bottom: 0;
-  max-width: 412px;
-  margin-left: 166px;
+  max-width: 460px;
+  margin-left: 156px;
 }
 
 .listing .description ul {
@@ -282,7 +282,7 @@ p{
 }
 
 .faceface .description{
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 .exppro .item {
