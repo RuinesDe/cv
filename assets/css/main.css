@@ -96,12 +96,14 @@ h5{
 h6{
   font-size: 17px;
   line-height: 1.4em;
+}
 
+ul{
+  list
 }
 
 p{
   line-height: 1.4em;
-  margin-top: 10px;
   margin-bottom: 0;
 }
 
@@ -185,6 +187,8 @@ p{
   position: relative;
   z-index: 75;
   margin-top: 170px;
+  border-color: black;
+  border: 1px;
   display: inline-block;
   width: 100%;
   padding: 20px;
