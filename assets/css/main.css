@@ -204,7 +204,7 @@ p{
 
 #block1 {
   display: inline-block;
-  width: calc(50% - 30px);
+  width: calc(50% - 17px);
 }
 
 #block2 {
@@ -244,7 +244,7 @@ p{
 .exppro .meta {
   display: inline-block;
   vertical-align: top;
-  width: 140px;
+  width: 152px;
 }
 
 
@@ -390,16 +390,18 @@ p{
   margin-bottom: 0px;
   width: 100%;
   padding: 20px;
+  display: none;
+}
+
+.wip-illustrations.visible {
+  display: block;
 }
 
 .wip-illustrations .picture {
-  display: none;
+  display: block;
   max-width: 80%;
 }
 
-.wip-illustrations .picture.visible {
-  display: block;
-}
 
 /* Responsive Below 767px */
 
